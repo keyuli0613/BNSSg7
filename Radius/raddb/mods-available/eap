@@ -1,0 +1,10 @@
+eap {
+    default_eap_type = tls
+    tls {
+        private_key_file = /etc/raddb/certs/radius.key.pem
+        certificate_file = /etc/raddb/certs/radius.cert.pem
+        ca_file = /etc/raddb/certs/ca-chain.cert.pem
+        private_key_password = 123123
+    }
+    
+}
