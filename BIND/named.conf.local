@@ -1,0 +1,8 @@
+zone "demo.com" {   
+        type master;
+        file "/etc/bind/db.demo.com";  
+};
+zone "g7normal.se" {   
+        type master;
+        file "/etc/bind/db.g7normal.se";  
+};
